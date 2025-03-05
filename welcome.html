@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to RiseGenix</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-50 min-h-screen overflow-x-hidden">
+    <!-- Hero Section -->
+    <div class="relative h-screen">
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="hero-images">
+                <!-- University images will be added via JavaScript -->
+            </div>
+        </div>
+        
+        <div class="relative z-10 h-full flex items-center justify-center text-center">
+            <div class="welcome-content animate-fadeIn">
+                <h1 class="text-6xl font-bold text-white mb-6 text-shadow">Welcome to RiseGenix</h1>
+                <p class="text-xl text-white mb-8 text-shadow">Your Gateway to Academic Excellence</p>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+                    <a href="/engineering.html" class="category-card">
+                        <div class="bg-white/90 p-6 rounded-lg shadow-lg hover:transform hover:scale-105 transition-all">
+                            <h3 class="text-xl font-semibold text-indigo-600">Engineering</h3>
+                            <p class="text-gray-600 mt-2">Explore top engineering colleges</p>
+                        </div>
+                    </a>
+                    <a href="/medical.html" class="category-card">
+                        <div class="bg-white/90 p-6 rounded-lg shadow-lg hover:transform hover:scale-105 transition-all">
+                            <h3 class="text-xl font-semibold text-indigo-600">Medical</h3>
+                            <p class="text-gray-600 mt-2">Discover medical institutions</p>
+                        </div>
+                    </a>
+                    <a href="/management.html" class="category-card">
+                        <div class="bg-white/90 p-6 rounded-lg shadow-lg hover:transform hover:scale-105 transition-all">
+                            <h3 class="text-xl font-semibold text-indigo-600">Management</h3>
+                            <p class="text-gray-600 mt-2">Find business schools</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="mt-8">
+                    <a href="/login.html" class="get-started-btn bg-indigo-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-indigo-700 transition-colors inline-block">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="welcome.js"></script>
+</body>
+</html> 
